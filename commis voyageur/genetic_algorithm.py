@@ -125,7 +125,7 @@ for point in ans:
     y_list.append(point[1])
 
 fig, ax = plt.subplots()
-title_name = 'Генетика' + '\n' + 'Количетсво городов: ' + str(number_of_cities) + '\n' + 'Путь: ' + str(
+title_name = 'Генетика' + '\n' + 'Количество городов: ' + str(number_of_cities) + '\n' + 'Путь: ' + str(
     "%.2f" % ans_dist)
 plt.title(title_name)
 
