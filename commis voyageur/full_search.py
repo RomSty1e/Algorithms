@@ -72,7 +72,7 @@ for point in ans:
     y_list.append(point[1])
 
 fig, ax = plt.subplots()
-title_name = 'Полный перебор' + '\n' + 'Количетсво городов: ' + str(number_of_cities) + '\n' + 'Путь: ' + str(
+title_name = 'Полный перебор' + '\n' + 'Количество городов: ' + str(number_of_cities) + '\n' + 'Путь: ' + str(
     "%.2f" % best_distance)
 plt.title(title_name)
 
