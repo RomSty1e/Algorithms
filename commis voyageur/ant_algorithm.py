@@ -141,7 +141,7 @@ for point in ans_way:
     y_list.append(cities[point][1])
 
 fig, ax = plt.subplots()
-title_name = 'Муравьи' + '\n' + 'Количетсво городов: ' + str(number_of_cities) + '\n' + 'Путь: ' + str(
+title_name = 'Муравьи' + '\n' + 'Количество городов: ' + str(number_of_cities) + '\n' + 'Путь: ' + str(
     "%.2f" % ans_way_len)
 plt.title(title_name)
 
